@@ -1,0 +1,14 @@
+# import './episode_fragment.graphql'
+
+
+fragment CharacterFragment on Character{
+    id
+    name
+    status
+    species
+    image
+    gender
+    episode{
+        ...EpisodeFragment
+    }
+}

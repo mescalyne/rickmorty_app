@@ -1,0 +1,57 @@
+name: rickmorty_app
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # architecture
+  flutter_bloc: ^7.2.0 
+  get_it: ^7.2.0
+  injectable: ^1.2.0
+  form_bloc: ^0.20.1
+  flutter_form_bloc: ^0.20.1
+
+  # network
+  graphql: ^5.0.0
+  graphql_flutter: ^5.0.0
+
+  # utils
+  freezed_annotation: ^1.1.0
+  cupertino_icons: ^1.0.2
+  logger: ^1.1.0
+
+  #data
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.0
+  
+  freezed: ^0.14.0+1
+  build_runner: ^2.1.1
+  injectable_generator: ^1.2.0
+  ferry_generator: 0.4.4
+
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Dosis
+      fonts:
+        - asset: assets/fonts/dosis.ttf

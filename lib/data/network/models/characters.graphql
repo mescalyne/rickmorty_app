@@ -1,0 +1,9 @@
+# import './character_fragment.graphql'
+
+query Characters($page: Int!) {
+    characters(page: $page) {
+        results{
+            ...CharacterFragment
+        }
+    }
+}
